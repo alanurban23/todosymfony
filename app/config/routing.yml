@@ -1,0 +1,8 @@
+blog_home:
+    path:     /
+    defaults: { _controller: ToDoBundle:Home:index }
+
+todo:
+    type: rest
+    resource: "@ToDoBundle/Resources/config/routing.yml"
+    prefix: /rest

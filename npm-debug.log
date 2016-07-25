@@ -1,0 +1,960 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'moment',
+1 verbose cli   '--save' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData moment
+8 silly fetchNamedPackageData moment
+9 silly mapToRegistry name moment
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/moment
+13 verbose request uri https://registry.npmjs.org/moment
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 03:02:51
+16 verbose request id 44cafb5b98d46ede
+17 http request GET https://registry.npmjs.org/moment
+18 http 200 https://registry.npmjs.org/moment
+19 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+19 verbose headers   etag: '"68XVVDDVTF84E7OIQ008YEIYO"',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '12327',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Mon, 25 Jul 2016 01:02:52 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '50',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+19 verbose headers   'x-cache': 'HIT',
+19 verbose headers   'x-cache-hits': '1',
+19 verbose headers   'x-timer': 'S1469408572.096216,VS0,VE0',
+19 verbose headers   vary: 'Accept-Encoding' }
+20 silly get cb [ 200,
+20 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+20 silly get     etag: '"68XVVDDVTF84E7OIQ008YEIYO"',
+20 silly get     'content-type': 'application/json',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '12327',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Mon, 25 Jul 2016 01:02:52 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '50',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-lhr6324-LHR',
+20 silly get     'x-cache': 'HIT',
+20 silly get     'x-cache-hits': '1',
+20 silly get     'x-timer': 'S1469408572.096216,VS0,VE0',
+20 silly get     vary: 'Accept-Encoding' } ]
+21 verbose get saving moment to C:\Users\largo\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+22 verbose correctMkdir C:\Users\largo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+23 silly install normalizeTree
+24 silly loadCurrentTree Finishing
+25 silly loadIdealTree Starting
+26 silly install loadIdealTree
+27 silly cloneCurrentTree Starting
+28 silly install cloneCurrentTreeToIdealTree
+29 silly cloneCurrentTree Finishing
+30 silly loadShrinkwrap Starting
+31 silly install loadShrinkwrap
+32 silly loadShrinkwrap Finishing
+33 silly loadAllDepsIntoIdealTree Starting
+34 silly install loadAllDepsIntoIdealTree
+35 silly resolveWithNewModule moment@2.14.1 checking installable status
+36 silly cache add args [ 'moment', null ]
+37 verbose cache add spec moment
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'moment',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'moment',
+38 silly cache add   rawSpec: '',
+38 silly cache add   spec: 'latest',
+38 silly cache add   type: 'tag' }
+39 silly addNamed moment@latest
+40 verbose addNamed "latest" is being treated as a dist-tag for moment
+41 info addNameTag [ 'moment', 'latest' ]
+42 silly mapToRegistry name moment
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/moment
+46 verbose addNameTag registry:https://registry.npmjs.org/moment not in flight; fetching
+47 verbose get https://registry.npmjs.org/moment not expired, no request
+48 silly addNameTag next cb for moment with tag latest
+49 silly addNamed moment@2.14.1
+50 verbose addNamed "2.14.1" is a plain semver version for moment
+51 silly mapToRegistry name moment
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/moment
+55 verbose addRemoteTarball https://registry.npmjs.org/moment/-/moment-2.14.1.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.14.1.tgz',
+56 verbose addRemoteTarball   'b35b27c47e57ed2ddc70053d6b07becdb291741c' ]
+57 info retry fetch attempt 1 at 03:02:52
+58 info attempt registry request try #1 at 03:02:52
+59 http fetch GET https://registry.npmjs.org/moment/-/moment-2.14.1.tgz
+60 http fetch 200 https://registry.npmjs.org/moment/-/moment-2.14.1.tgz
+61 silly fetchAndShaCheck shasum b35b27c47e57ed2ddc70053d6b07becdb291741c
+62 verbose addTmpTarball C:\Users\largo\AppData\Local\Temp\npm-2148-bb72d461\registry.npmjs.org\moment\-\moment-2.14.1.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for moment@2.14.1
+64 verbose correctMkdir C:\Users\largo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+65 silly cache afterAdd moment@2.14.1
+66 verbose afterAdd C:\Users\largo\AppData\Roaming\npm-cache\moment\2.14.1\package\package.json not in flight; writing
+67 verbose correctMkdir C:\Users\largo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 verbose afterAdd C:\Users\largo\AppData\Roaming\npm-cache\moment\2.14.1\package\package.json written
+69 silly loadAllDepsIntoIdealTree Finishing
+70 silly idealTree:prePrune symfony_project
+70 silly idealTree:prePrune +-- moment@2.14.1
+70 silly idealTree:prePrune `-- vue-filter@0.1.6
+71 silly loadIdealTree Finishing
+72 silly currentTree symfony_project
+72 silly currentTree `-- vue-filter@0.1.6
+73 silly idealTree symfony_project
+73 silly idealTree +-- moment@2.14.1
+73 silly idealTree `-- vue-filter@0.1.6
+74 silly generateActionsToTake Starting
+75 silly install generateActionsToTake
+76 silly generateActionsToTake Finishing
+77 silly diffTrees action count 2
+78 silly diffTrees add moment@2.14.1
+79 silly diffTrees update vue-filter@0.1.6
+80 silly decomposeActions action count 16
+81 silly decomposeActions fetch moment@2.14.1
+82 silly decomposeActions extract moment@2.14.1
+83 silly decomposeActions test moment@2.14.1
+84 silly decomposeActions preinstall moment@2.14.1
+85 silly decomposeActions build moment@2.14.1
+86 silly decomposeActions install moment@2.14.1
+87 silly decomposeActions postinstall moment@2.14.1
+88 silly decomposeActions finalize moment@2.14.1
+89 silly decomposeActions fetch vue-filter@0.1.6
+90 silly decomposeActions extract vue-filter@0.1.6
+91 silly decomposeActions test vue-filter@0.1.6
+92 silly decomposeActions preinstall vue-filter@0.1.6
+93 silly decomposeActions build vue-filter@0.1.6
+94 silly decomposeActions install vue-filter@0.1.6
+95 silly decomposeActions postinstall vue-filter@0.1.6
+96 silly decomposeActions finalize vue-filter@0.1.6
+97 silly executeActions Starting
+98 silly install executeActions
+99 silly doSerial global-install 0
+100 silly doParallel fetch 2
+101 verbose correctMkdir C:\Users\largo\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+102 verbose lock using C:\Users\largo\AppData\Roaming\npm-cache\_locks\staging-206922174769d498.lock for C:\xampp\htdocs\symfony_project\node_modules\.staging
+103 silly doParallel extract 2
+104 silly extract moment@2.14.1
+105 silly extract vue-filter@0.1.6
+106 verbose unbuild node_modules\.staging\moment-1c8056aa
+107 verbose unbuild node_modules\.staging\vue-filter-dd5bb0d9
+108 silly gentlyRm C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa is being purged from base C:\xampp\htdocs\symfony_project
+109 verbose gentlyRm don't care about contents; nuking C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa
+110 silly gentlyRm C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9 is being purged from base C:\xampp\htdocs\symfony_project
+111 verbose gentlyRm don't care about contents; nuking C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9
+112 verbose tar unpack C:\Users\largo\AppData\Roaming\npm-cache\moment\2.14.1\package.tgz
+113 verbose tar unpacking to C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa
+114 silly gentlyRm C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa is being purged
+115 verbose gentlyRm don't care about contents; nuking C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa
+116 verbose tar unpack C:\Users\largo\AppData\Roaming\npm-cache\vue-filter\0.1.6\package.tgz
+117 verbose tar unpacking to C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9
+118 silly gentlyRm C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9 is being purged
+119 verbose gentlyRm don't care about contents; nuking C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9
+120 silly gunzTarPerm modes [ '777', '666' ]
+121 silly gunzTarPerm modes [ '777', '666' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+124 silly gunzTarPerm extractEntry package.json
+125 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+126 silly gunzTarPerm extractEntry .npmignore
+127 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+128 silly gunzTarPerm extractEntry README.md
+129 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+130 silly gunzTarPerm extractEntry .npmignore
+131 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+132 silly gunzTarPerm extractEntry README.md
+133 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+134 silly gunzTarPerm extractEntry LICENSE
+135 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+136 silly gunzTarPerm extractEntry dist/vue-filter.js
+137 silly gunzTarPerm modified mode [ 'dist/vue-filter.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry LICENSE
+139 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+140 silly gunzTarPerm extractEntry ender.js
+141 silly gunzTarPerm modified mode [ 'ender.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry dist/vue-filter.min.js
+143 silly gunzTarPerm modified mode [ 'dist/vue-filter.min.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry moment.js
+145 silly gunzTarPerm modified mode [ 'moment.js', 420, 438 ]
+146 silly gunzTarPerm extractEntry package.js
+147 silly gunzTarPerm modified mode [ 'package.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry moment.d.ts
+149 silly gunzTarPerm modified mode [ 'moment.d.ts', 420, 438 ]
+150 silly gunzTarPerm extractEntry src/moment.js
+151 silly gunzTarPerm modified mode [ 'src/moment.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry src/lib/create/check-overflow.js
+153 silly gunzTarPerm modified mode [ 'src/lib/create/check-overflow.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry src/lib/create/from-anything.js
+155 silly gunzTarPerm modified mode [ 'src/lib/create/from-anything.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry .eslintignore
+157 silly gunzTarPerm modified mode [ '.eslintignore', 420, 438 ]
+158 silly gunzTarPerm extractEntry .eslintrc.json
+159 silly gunzTarPerm modified mode [ '.eslintrc.json', 420, 438 ]
+160 silly gunzTarPerm extractEntry src/lib/create/from-array.js
+161 silly gunzTarPerm modified mode [ 'src/lib/create/from-array.js', 420, 438 ]
+162 silly gunzTarPerm extractEntry src/lib/create/from-object.js
+163 silly gunzTarPerm modified mode [ 'src/lib/create/from-object.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry src/lib/create/from-string-and-array.js
+165 silly gunzTarPerm modified mode [ 'src/lib/create/from-string-and-array.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry src/index.js
+167 silly gunzTarPerm modified mode [ 'src/index.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry src/collection/at.js
+169 silly gunzTarPerm modified mode [ 'src/collection/at.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry src/collection/contains.js
+171 silly gunzTarPerm modified mode [ 'src/collection/contains.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry src/collection/first.js
+173 silly gunzTarPerm modified mode [ 'src/collection/first.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry src/lib/create/date-from-array.js
+175 silly gunzTarPerm modified mode [ 'src/lib/create/date-from-array.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry src/lib/create/from-string.js
+177 silly gunzTarPerm modified mode [ 'src/lib/create/from-string.js', 420, 438 ]
+178 silly gunzTarPerm extractEntry src/lib/create/local.js
+179 silly gunzTarPerm modified mode [ 'src/lib/create/local.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry src/lib/create/parsing-flags.js
+181 silly gunzTarPerm modified mode [ 'src/lib/create/parsing-flags.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry src/lib/create/utc.js
+183 silly gunzTarPerm modified mode [ 'src/lib/create/utc.js', 420, 438 ]
+184 silly gunzTarPerm extractEntry src/lib/create/valid.js
+185 silly gunzTarPerm modified mode [ 'src/lib/create/valid.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry src/lib/create/from-string-and-format.js
+187 silly gunzTarPerm modified mode [ 'src/lib/create/from-string-and-format.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry src/lib/duration/abs.js
+189 silly gunzTarPerm modified mode [ 'src/lib/duration/abs.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry src/lib/duration/as.js
+191 silly gunzTarPerm modified mode [ 'src/lib/duration/as.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry src/lib/duration/bubble.js
+193 silly gunzTarPerm modified mode [ 'src/lib/duration/bubble.js', 420, 438 ]
+194 silly gunzTarPerm extractEntry src/collection/index.js
+195 silly gunzTarPerm modified mode [ 'src/collection/index.js', 420, 438 ]
+196 silly gunzTarPerm extractEntry src/collection/join.js
+197 silly gunzTarPerm modified mode [ 'src/collection/join.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry src/lib/duration/constructor.js
+199 silly gunzTarPerm modified mode [ 'src/lib/duration/constructor.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry src/lib/duration/add-subtract.js
+201 silly gunzTarPerm modified mode [ 'src/lib/duration/add-subtract.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry src/lib/duration/duration.js
+203 silly gunzTarPerm modified mode [ 'src/lib/duration/duration.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry src/lib/duration/get.js
+205 silly gunzTarPerm modified mode [ 'src/lib/duration/get.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry src/lib/duration/humanize.js
+207 silly gunzTarPerm modified mode [ 'src/lib/duration/humanize.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry src/collection/concat.js
+209 silly gunzTarPerm modified mode [ 'src/collection/concat.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry src/collection/map.js
+211 silly gunzTarPerm modified mode [ 'src/collection/map.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry src/collection/random.js
+213 silly gunzTarPerm modified mode [ 'src/collection/random.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry src/collection/range.js
+215 silly gunzTarPerm modified mode [ 'src/collection/range.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry src/lib/duration/iso-string.js
+217 silly gunzTarPerm modified mode [ 'src/lib/duration/iso-string.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry src/lib/duration/prototype.js
+219 silly gunzTarPerm modified mode [ 'src/lib/duration/prototype.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry src/collection/reverse.js
+221 silly gunzTarPerm modified mode [ 'src/collection/reverse.js', 420, 438 ]
+222 silly gunzTarPerm extractEntry src/collection/size.js
+223 silly gunzTarPerm modified mode [ 'src/collection/size.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry src/lib/duration/create.js
+225 silly gunzTarPerm modified mode [ 'src/lib/duration/create.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry src/lib/format/format.js
+227 silly gunzTarPerm modified mode [ 'src/lib/format/format.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry src/collection/last.js
+229 silly gunzTarPerm modified mode [ 'src/collection/last.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry src/math/base.js
+231 silly gunzTarPerm modified mode [ 'src/math/base.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry src/lib/locale/base-config.js
+233 silly gunzTarPerm modified mode [ 'src/lib/locale/base-config.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry src/lib/locale/en.js
+235 silly gunzTarPerm modified mode [ 'src/lib/locale/en.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry src/math/index.js
+237 silly gunzTarPerm modified mode [ 'src/math/index.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry src/math/max.js
+239 silly gunzTarPerm modified mode [ 'src/math/max.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry src/lib/locale/formats.js
+241 silly gunzTarPerm modified mode [ 'src/lib/locale/formats.js', 420, 438 ]
+242 silly gunzTarPerm extractEntry src/lib/locale/invalid.js
+243 silly gunzTarPerm modified mode [ 'src/lib/locale/invalid.js', 420, 438 ]
+244 silly gunzTarPerm extractEntry src/math/mean.js
+245 silly gunzTarPerm modified mode [ 'src/math/mean.js', 420, 438 ]
+246 silly gunzTarPerm extractEntry src/math/min.js
+247 silly gunzTarPerm modified mode [ 'src/math/min.js', 420, 438 ]
+248 silly gunzTarPerm extractEntry src/math/operator.js
+249 silly gunzTarPerm modified mode [ 'src/math/operator.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry src/math/sum.js
+251 silly gunzTarPerm modified mode [ 'src/math/sum.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry src/lib/locale/lists.js
+253 silly gunzTarPerm modified mode [ 'src/lib/locale/lists.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry src/lib/locale/constructor.js
+255 silly gunzTarPerm modified mode [ 'src/lib/locale/constructor.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry src/lib/locale/locales.js
+257 silly gunzTarPerm modified mode [ 'src/lib/locale/locales.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry src/lib/locale/ordinal.js
+259 silly gunzTarPerm modified mode [ 'src/lib/locale/ordinal.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry src/other/date.js
+261 silly gunzTarPerm modified mode [ 'src/other/date.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry src/other/defaults.js
+263 silly gunzTarPerm modified mode [ 'src/other/defaults.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry src/lib/locale/pre-post-format.js
+265 silly gunzTarPerm modified mode [ 'src/lib/locale/pre-post-format.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry src/lib/locale/prototype.js
+267 silly gunzTarPerm modified mode [ 'src/lib/locale/prototype.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry src/other/index.js
+269 silly gunzTarPerm modified mode [ 'src/other/index.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry src/string/append.js
+271 silly gunzTarPerm modified mode [ 'src/string/append.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry src/string/index.js
+273 silly gunzTarPerm modified mode [ 'src/string/index.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry src/string/pad.js
+275 silly gunzTarPerm modified mode [ 'src/string/pad.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry src/lib/locale/relative.js
+277 silly gunzTarPerm modified mode [ 'src/lib/locale/relative.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry src/lib/locale/calendar.js
+279 silly gunzTarPerm modified mode [ 'src/lib/locale/calendar.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry src/string/prepend.js
+281 silly gunzTarPerm modified mode [ 'src/string/prepend.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry src/string/camelcase.js
+283 silly gunzTarPerm modified mode [ 'src/string/camelcase.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry src/lib/locale/set.js
+285 silly gunzTarPerm modified mode [ 'src/lib/locale/set.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry src/lib/locale/locale.js
+287 silly gunzTarPerm modified mode [ 'src/lib/locale/locale.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry src/string/repeat.js
+289 silly gunzTarPerm modified mode [ 'src/string/repeat.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry src/string/split.js
+291 silly gunzTarPerm modified mode [ 'src/string/split.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry src/lib/moment/add-subtract.js
+293 silly gunzTarPerm modified mode [ 'src/lib/moment/add-subtract.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry src/lib/moment/diff.js
+295 silly gunzTarPerm modified mode [ 'src/lib/moment/diff.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry src/string/test.js
+297 silly gunzTarPerm modified mode [ 'src/string/test.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry src/string/trim.js
+299 silly gunzTarPerm modified mode [ 'src/string/trim.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry src/lib/moment/format.js
+301 silly gunzTarPerm modified mode [ 'src/lib/moment/format.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry src/lib/moment/from.js
+303 silly gunzTarPerm modified mode [ 'src/lib/moment/from.js', 420, 438 ]
+304 silly gunzTarPerm extractEntry src/string/truncate.js
+305 silly gunzTarPerm modified mode [ 'src/string/truncate.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry src/string/remove.js
+307 silly gunzTarPerm modified mode [ 'src/string/remove.js', 420, 438 ]
+308 silly gunzTarPerm extractEntry src/lib/moment/creation-data.js
+309 silly gunzTarPerm modified mode [ 'src/lib/moment/creation-data.js', 420, 438 ]
+310 silly gunzTarPerm extractEntry src/lib/moment/locale.js
+311 silly gunzTarPerm modified mode [ 'src/lib/moment/locale.js', 420, 438 ]
+312 silly gunzTarPerm extractEntry src/util/index.js
+313 silly gunzTarPerm modified mode [ 'src/util/index.js', 420, 438 ]
+314 silly gunzTarPerm extractEntry scripts/build.js
+315 silly gunzTarPerm modified mode [ 'scripts/build.js', 420, 438 ]
+316 silly gunzTarPerm extractEntry src/lib/moment/min-max.js
+317 silly gunzTarPerm modified mode [ 'src/lib/moment/min-max.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry src/lib/moment/moment.js
+319 silly gunzTarPerm modified mode [ 'src/lib/moment/moment.js', 420, 438 ]
+320 silly gunzTarPerm extractEntry scripts/test.js
+321 silly gunzTarPerm modified mode [ 'scripts/test.js', 420, 438 ]
+322 silly gunzTarPerm extractEntry test/collection.js
+323 silly gunzTarPerm modified mode [ 'test/collection.js', 420, 438 ]
+324 silly gunzTarPerm extractEntry src/lib/moment/now.js
+325 silly gunzTarPerm modified mode [ 'src/lib/moment/now.js', 420, 438 ]
+326 silly gunzTarPerm extractEntry src/lib/moment/prototype.js
+327 silly gunzTarPerm modified mode [ 'src/lib/moment/prototype.js', 420, 438 ]
+328 silly gunzTarPerm extractEntry test/index.js
+329 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+330 silly gunzTarPerm extractEntry test/math.js
+331 silly gunzTarPerm modified mode [ 'test/math.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry test/other.js
+333 silly gunzTarPerm modified mode [ 'test/other.js', 420, 438 ]
+334 silly gunzTarPerm extractEntry test/string.js
+335 silly gunzTarPerm modified mode [ 'test/string.js', 420, 438 ]
+336 silly gunzTarPerm extractEntry src/lib/moment/constructor.js
+337 silly gunzTarPerm modified mode [ 'src/lib/moment/constructor.js', 420, 438 ]
+338 silly gunzTarPerm extractEntry src/lib/moment/start-end-of.js
+339 silly gunzTarPerm modified mode [ 'src/lib/moment/start-end-of.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry test/test.js
+341 silly gunzTarPerm modified mode [ 'test/test.js', 420, 438 ]
+342 silly gunzTarPerm extractEntry test/util.js
+343 silly gunzTarPerm modified mode [ 'test/util.js', 420, 438 ]
+344 silly gunzTarPerm extractEntry src/lib/moment/compare.js
+345 silly gunzTarPerm modified mode [ 'src/lib/moment/compare.js', 420, 438 ]
+346 silly gunzTarPerm extractEntry src/lib/moment/to-type.js
+347 silly gunzTarPerm modified mode [ 'src/lib/moment/to-type.js', 420, 438 ]
+348 silly gunzTarPerm extractEntry src/lib/moment/clone.js
+349 silly gunzTarPerm modified mode [ 'src/lib/moment/clone.js', 420, 438 ]
+350 silly gunzTarPerm extractEntry src/lib/moment/to.js
+351 silly gunzTarPerm modified mode [ 'src/lib/moment/to.js', 420, 438 ]
+352 silly gunzTarPerm extractEntry src/lib/moment/calendar.js
+353 silly gunzTarPerm modified mode [ 'src/lib/moment/calendar.js', 420, 438 ]
+354 silly gunzTarPerm extractEntry src/lib/moment/valid.js
+355 silly gunzTarPerm modified mode [ 'src/lib/moment/valid.js', 420, 438 ]
+356 silly gunzTarPerm extractEntry src/lib/moment/get-set.js
+357 silly gunzTarPerm modified mode [ 'src/lib/moment/get-set.js', 420, 438 ]
+358 silly gunzTarPerm extractEntry src/lib/parse/regex.js
+359 silly gunzTarPerm modified mode [ 'src/lib/parse/regex.js', 420, 438 ]
+360 silly gunzTarPerm extractEntry src/lib/parse/token.js
+361 silly gunzTarPerm modified mode [ 'src/lib/parse/token.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry src/lib/units/aliases.js
+363 silly gunzTarPerm modified mode [ 'src/lib/units/aliases.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry src/lib/units/millisecond.js
+365 silly gunzTarPerm modified mode [ 'src/lib/units/millisecond.js', 420, 438 ]
+366 silly gunzTarPerm extractEntry src/lib/units/minute.js
+367 silly gunzTarPerm modified mode [ 'src/lib/units/minute.js', 420, 438 ]
+368 silly gunzTarPerm extractEntry src/lib/units/month.js
+369 silly gunzTarPerm modified mode [ 'src/lib/units/month.js', 420, 438 ]
+370 silly gunzTarPerm extractEntry src/lib/units/offset.js
+371 silly gunzTarPerm modified mode [ 'src/lib/units/offset.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry src/lib/units/hour.js
+373 silly gunzTarPerm modified mode [ 'src/lib/units/hour.js', 420, 438 ]
+374 silly gunzTarPerm extractEntry src/lib/units/quarter.js
+375 silly gunzTarPerm modified mode [ 'src/lib/units/quarter.js', 420, 438 ]
+376 silly gunzTarPerm extractEntry src/lib/units/second.js
+377 silly gunzTarPerm modified mode [ 'src/lib/units/second.js', 420, 438 ]
+378 silly gunzTarPerm extractEntry src/lib/units/timestamp.js
+379 silly gunzTarPerm modified mode [ 'src/lib/units/timestamp.js', 420, 438 ]
+380 silly gunzTarPerm extractEntry src/lib/units/timezone.js
+381 silly gunzTarPerm modified mode [ 'src/lib/units/timezone.js', 420, 438 ]
+382 silly gunzTarPerm extractEntry src/lib/units/units.js
+383 silly gunzTarPerm modified mode [ 'src/lib/units/units.js', 420, 438 ]
+384 silly gunzTarPerm extractEntry src/lib/units/day-of-year.js
+385 silly gunzTarPerm modified mode [ 'src/lib/units/day-of-year.js', 420, 438 ]
+386 silly gunzTarPerm extractEntry src/lib/units/week-calendar-utils.js
+387 silly gunzTarPerm modified mode [ 'src/lib/units/week-calendar-utils.js', 420, 438 ]
+388 silly gunzTarPerm extractEntry src/lib/units/day-of-week.js
+389 silly gunzTarPerm modified mode [ 'src/lib/units/day-of-week.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry src/lib/units/week-year.js
+391 silly gunzTarPerm modified mode [ 'src/lib/units/week-year.js', 420, 438 ]
+392 silly gunzTarPerm extractEntry src/lib/units/day-of-month.js
+393 silly gunzTarPerm modified mode [ 'src/lib/units/day-of-month.js', 420, 438 ]
+394 silly gunzTarPerm extractEntry src/lib/units/week.js
+395 silly gunzTarPerm modified mode [ 'src/lib/units/week.js', 420, 438 ]
+396 silly gunzTarPerm extractEntry src/lib/units/constants.js
+397 silly gunzTarPerm modified mode [ 'src/lib/units/constants.js', 420, 438 ]
+398 silly gunzTarPerm extractEntry src/lib/units/year.js
+399 silly gunzTarPerm modified mode [ 'src/lib/units/year.js', 420, 438 ]
+400 silly gunzTarPerm extractEntry src/lib/units/priorities.js
+401 silly gunzTarPerm modified mode [ 'src/lib/units/priorities.js', 420, 438 ]
+402 silly gunzTarPerm extractEntry src/lib/utils/abs-ceil.js
+403 silly gunzTarPerm modified mode [ 'src/lib/utils/abs-ceil.js', 420, 438 ]
+404 silly gunzTarPerm extractEntry src/lib/utils/has-own-prop.js
+405 silly gunzTarPerm modified mode [ 'src/lib/utils/has-own-prop.js', 420, 438 ]
+406 silly gunzTarPerm extractEntry src/lib/utils/hooks.js
+407 silly gunzTarPerm modified mode [ 'src/lib/utils/hooks.js', 420, 438 ]
+408 silly gunzTarPerm extractEntry src/lib/utils/index-of.js
+409 silly gunzTarPerm modified mode [ 'src/lib/utils/index-of.js', 420, 438 ]
+410 silly gunzTarPerm extractEntry src/lib/utils/extend.js
+411 silly gunzTarPerm modified mode [ 'src/lib/utils/extend.js', 420, 438 ]
+412 silly gunzTarPerm extractEntry src/lib/utils/is-date.js
+413 silly gunzTarPerm modified mode [ 'src/lib/utils/is-date.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry src/lib/utils/is-function.js
+415 silly gunzTarPerm modified mode [ 'src/lib/utils/is-function.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry src/lib/utils/is-object-empty.js
+417 silly gunzTarPerm modified mode [ 'src/lib/utils/is-object-empty.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry src/lib/utils/is-object.js
+419 silly gunzTarPerm modified mode [ 'src/lib/utils/is-object.js', 420, 438 ]
+420 silly gunzTarPerm extractEntry src/lib/utils/is-undefined.js
+421 silly gunzTarPerm modified mode [ 'src/lib/utils/is-undefined.js', 420, 438 ]
+422 silly gunzTarPerm extractEntry src/lib/utils/deprecate.js
+423 silly gunzTarPerm modified mode [ 'src/lib/utils/deprecate.js', 420, 438 ]
+424 silly gunzTarPerm extractEntry src/lib/utils/keys.js
+425 silly gunzTarPerm modified mode [ 'src/lib/utils/keys.js', 420, 438 ]
+426 silly gunzTarPerm extractEntry src/lib/utils/defaults.js
+427 silly gunzTarPerm modified mode [ 'src/lib/utils/defaults.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry src/lib/utils/map.js
+429 silly gunzTarPerm modified mode [ 'src/lib/utils/map.js', 420, 438 ]
+430 silly gunzTarPerm extractEntry src/lib/utils/compare-arrays.js
+431 silly gunzTarPerm modified mode [ 'src/lib/utils/compare-arrays.js', 420, 438 ]
+432 silly gunzTarPerm extractEntry src/lib/utils/some.js
+433 silly gunzTarPerm modified mode [ 'src/lib/utils/some.js', 420, 438 ]
+434 silly gunzTarPerm extractEntry src/lib/utils/abs-round.js
+435 silly gunzTarPerm modified mode [ 'src/lib/utils/abs-round.js', 420, 438 ]
+436 silly gunzTarPerm extractEntry src/lib/utils/to-int.js
+437 silly gunzTarPerm modified mode [ 'src/lib/utils/to-int.js', 420, 438 ]
+438 silly gunzTarPerm extractEntry src/lib/utils/abs-floor.js
+439 silly gunzTarPerm modified mode [ 'src/lib/utils/abs-floor.js', 420, 438 ]
+440 silly gunzTarPerm extractEntry src/lib/utils/zero-fill.js
+441 silly gunzTarPerm modified mode [ 'src/lib/utils/zero-fill.js', 420, 438 ]
+442 silly gunzTarPerm extractEntry src/lib/utils/is-array.js
+443 silly gunzTarPerm modified mode [ 'src/lib/utils/is-array.js', 420, 438 ]
+444 silly gunzTarPerm extractEntry src/locale/af.js
+445 silly gunzTarPerm modified mode [ 'src/locale/af.js', 420, 438 ]
+446 silly gentlyRm C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9\node_modules is being purged
+447 verbose gentlyRm don't care about contents; nuking C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9\node_modules
+448 silly gunzTarPerm extractEntry src/locale/it.js
+449 silly gunzTarPerm modified mode [ 'src/locale/it.js', 420, 438 ]
+450 silly gunzTarPerm extractEntry src/locale/ja.js
+451 silly gunzTarPerm modified mode [ 'src/locale/ja.js', 420, 438 ]
+452 silly gunzTarPerm extractEntry src/locale/jv.js
+453 silly gunzTarPerm modified mode [ 'src/locale/jv.js', 420, 438 ]
+454 silly gunzTarPerm extractEntry src/locale/is.js
+455 silly gunzTarPerm modified mode [ 'src/locale/is.js', 420, 438 ]
+456 silly gunzTarPerm extractEntry src/locale/kk.js
+457 silly gunzTarPerm modified mode [ 'src/locale/kk.js', 420, 438 ]
+458 silly gunzTarPerm extractEntry src/locale/km.js
+459 silly gunzTarPerm modified mode [ 'src/locale/km.js', 420, 438 ]
+460 silly gunzTarPerm extractEntry src/locale/ko.js
+461 silly gunzTarPerm modified mode [ 'src/locale/ko.js', 420, 438 ]
+462 silly gunzTarPerm extractEntry src/locale/ky.js
+463 silly gunzTarPerm modified mode [ 'src/locale/ky.js', 420, 438 ]
+464 silly gunzTarPerm extractEntry src/locale/lb.js
+465 silly gunzTarPerm modified mode [ 'src/locale/lb.js', 420, 438 ]
+466 silly gunzTarPerm extractEntry src/locale/id.js
+467 silly gunzTarPerm modified mode [ 'src/locale/id.js', 420, 438 ]
+468 silly gunzTarPerm extractEntry src/locale/lo.js
+469 silly gunzTarPerm modified mode [ 'src/locale/lo.js', 420, 438 ]
+470 silly gunzTarPerm extractEntry src/locale/hy-am.js
+471 silly gunzTarPerm modified mode [ 'src/locale/hy-am.js', 420, 438 ]
+472 silly gunzTarPerm extractEntry src/locale/lt.js
+473 silly gunzTarPerm modified mode [ 'src/locale/lt.js', 420, 438 ]
+474 silly gunzTarPerm extractEntry src/locale/hu.js
+475 silly gunzTarPerm modified mode [ 'src/locale/hu.js', 420, 438 ]
+476 silly gunzTarPerm extractEntry src/locale/lv.js
+477 silly gunzTarPerm modified mode [ 'src/locale/lv.js', 420, 438 ]
+478 silly gunzTarPerm extractEntry src/locale/hr.js
+479 silly gunzTarPerm modified mode [ 'src/locale/hr.js', 420, 438 ]
+480 silly gunzTarPerm extractEntry src/locale/me.js
+481 silly gunzTarPerm modified mode [ 'src/locale/me.js', 420, 438 ]
+482 silly gunzTarPerm extractEntry src/locale/hi.js
+483 silly gunzTarPerm modified mode [ 'src/locale/hi.js', 420, 438 ]
+484 silly gunzTarPerm extractEntry src/locale/mk.js
+485 silly gunzTarPerm modified mode [ 'src/locale/mk.js', 420, 438 ]
+486 silly gunzTarPerm extractEntry src/locale/he.js
+487 silly gunzTarPerm modified mode [ 'src/locale/he.js', 420, 438 ]
+488 silly gunzTarPerm extractEntry src/locale/ml.js
+489 silly gunzTarPerm modified mode [ 'src/locale/ml.js', 420, 438 ]
+490 silly gunzTarPerm extractEntry src/locale/gl.js
+491 silly gunzTarPerm modified mode [ 'src/locale/gl.js', 420, 438 ]
+492 silly gunzTarPerm extractEntry src/locale/mr.js
+493 silly gunzTarPerm modified mode [ 'src/locale/mr.js', 420, 438 ]
+494 silly gunzTarPerm extractEntry src/locale/gd.js
+495 silly gunzTarPerm modified mode [ 'src/locale/gd.js', 420, 438 ]
+496 silly gunzTarPerm extractEntry src/locale/ms-my.js
+497 silly gunzTarPerm modified mode [ 'src/locale/ms-my.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry src/locale/fy.js
+499 silly gunzTarPerm modified mode [ 'src/locale/fy.js', 420, 438 ]
+500 silly gunzTarPerm extractEntry src/locale/ms.js
+501 silly gunzTarPerm modified mode [ 'src/locale/ms.js', 420, 438 ]
+502 silly gunzTarPerm extractEntry src/locale/fr.js
+503 silly gunzTarPerm modified mode [ 'src/locale/fr.js', 420, 438 ]
+504 silly gunzTarPerm extractEntry src/locale/my.js
+505 silly gunzTarPerm modified mode [ 'src/locale/my.js', 420, 438 ]
+506 silly gunzTarPerm extractEntry src/locale/fr-ch.js
+507 silly gunzTarPerm modified mode [ 'src/locale/fr-ch.js', 420, 438 ]
+508 silly gunzTarPerm extractEntry src/locale/nb.js
+509 silly gunzTarPerm modified mode [ 'src/locale/nb.js', 420, 438 ]
+510 silly gunzTarPerm extractEntry src/locale/fr-ca.js
+511 silly gunzTarPerm modified mode [ 'src/locale/fr-ca.js', 420, 438 ]
+512 silly gunzTarPerm extractEntry src/locale/ne.js
+513 silly gunzTarPerm modified mode [ 'src/locale/ne.js', 420, 438 ]
+514 silly gunzTarPerm extractEntry src/locale/fo.js
+515 silly gunzTarPerm modified mode [ 'src/locale/fo.js', 420, 438 ]
+516 silly gunzTarPerm extractEntry src/locale/nl.js
+517 silly gunzTarPerm modified mode [ 'src/locale/nl.js', 420, 438 ]
+518 silly gunzTarPerm extractEntry src/locale/fi.js
+519 silly gunzTarPerm modified mode [ 'src/locale/fi.js', 420, 438 ]
+520 silly gunzTarPerm extractEntry src/locale/nn.js
+521 silly gunzTarPerm modified mode [ 'src/locale/nn.js', 420, 438 ]
+522 silly gunzTarPerm extractEntry src/locale/fa.js
+523 silly gunzTarPerm modified mode [ 'src/locale/fa.js', 420, 438 ]
+524 silly gunzTarPerm extractEntry src/locale/pa-in.js
+525 silly gunzTarPerm modified mode [ 'src/locale/pa-in.js', 420, 438 ]
+526 silly gunzTarPerm extractEntry src/locale/eu.js
+527 silly gunzTarPerm modified mode [ 'src/locale/eu.js', 420, 438 ]
+528 silly gunzTarPerm extractEntry src/locale/pl.js
+529 silly gunzTarPerm modified mode [ 'src/locale/pl.js', 420, 438 ]
+530 silly gunzTarPerm extractEntry src/locale/et.js
+531 silly gunzTarPerm modified mode [ 'src/locale/et.js', 420, 438 ]
+532 silly gunzTarPerm extractEntry src/locale/pt-br.js
+533 silly gunzTarPerm modified mode [ 'src/locale/pt-br.js', 420, 438 ]
+534 silly gunzTarPerm extractEntry src/locale/es.js
+535 silly gunzTarPerm modified mode [ 'src/locale/es.js', 420, 438 ]
+536 silly gunzTarPerm extractEntry src/locale/pt.js
+537 silly gunzTarPerm modified mode [ 'src/locale/pt.js', 420, 438 ]
+538 silly gunzTarPerm extractEntry src/locale/es-do.js
+539 silly gunzTarPerm modified mode [ 'src/locale/es-do.js', 420, 438 ]
+540 silly gunzTarPerm extractEntry src/locale/ro.js
+541 silly gunzTarPerm modified mode [ 'src/locale/ro.js', 420, 438 ]
+542 silly gunzTarPerm extractEntry src/locale/eo.js
+543 silly gunzTarPerm modified mode [ 'src/locale/eo.js', 420, 438 ]
+544 silly gunzTarPerm extractEntry src/locale/ru.js
+545 silly gunzTarPerm modified mode [ 'src/locale/ru.js', 420, 438 ]
+546 silly gunzTarPerm extractEntry src/locale/en-nz.js
+547 silly gunzTarPerm modified mode [ 'src/locale/en-nz.js', 420, 438 ]
+548 silly gunzTarPerm extractEntry src/locale/se.js
+549 silly gunzTarPerm modified mode [ 'src/locale/se.js', 420, 438 ]
+550 silly gunzTarPerm extractEntry src/locale/en-ie.js
+551 silly gunzTarPerm modified mode [ 'src/locale/en-ie.js', 420, 438 ]
+552 silly gunzTarPerm extractEntry src/locale/si.js
+553 silly gunzTarPerm modified mode [ 'src/locale/si.js', 420, 438 ]
+554 silly gunzTarPerm extractEntry src/locale/en-gb.js
+555 silly gunzTarPerm modified mode [ 'src/locale/en-gb.js', 420, 438 ]
+556 silly gunzTarPerm extractEntry src/locale/sk.js
+557 silly gunzTarPerm modified mode [ 'src/locale/sk.js', 420, 438 ]
+558 silly gunzTarPerm extractEntry src/locale/en-ca.js
+559 silly gunzTarPerm modified mode [ 'src/locale/en-ca.js', 420, 438 ]
+560 silly gunzTarPerm extractEntry src/locale/sl.js
+561 silly gunzTarPerm modified mode [ 'src/locale/sl.js', 420, 438 ]
+562 silly gunzTarPerm extractEntry src/locale/en-au.js
+563 silly gunzTarPerm modified mode [ 'src/locale/en-au.js', 420, 438 ]
+564 silly gunzTarPerm extractEntry src/locale/sq.js
+565 silly gunzTarPerm modified mode [ 'src/locale/sq.js', 420, 438 ]
+566 silly gunzTarPerm extractEntry src/locale/el.js
+567 silly gunzTarPerm modified mode [ 'src/locale/el.js', 420, 438 ]
+568 silly gunzTarPerm extractEntry src/locale/sr-cyrl.js
+569 silly gunzTarPerm modified mode [ 'src/locale/sr-cyrl.js', 420, 438 ]
+570 silly gunzTarPerm extractEntry src/locale/dv.js
+571 silly gunzTarPerm modified mode [ 'src/locale/dv.js', 420, 438 ]
+572 silly gunzTarPerm extractEntry src/locale/sr.js
+573 silly gunzTarPerm modified mode [ 'src/locale/sr.js', 420, 438 ]
+574 silly gunzTarPerm extractEntry src/locale/de.js
+575 silly gunzTarPerm modified mode [ 'src/locale/de.js', 420, 438 ]
+576 silly gunzTarPerm extractEntry src/locale/ss.js
+577 silly gunzTarPerm modified mode [ 'src/locale/ss.js', 420, 438 ]
+578 silly gunzTarPerm extractEntry src/locale/de-at.js
+579 silly gunzTarPerm modified mode [ 'src/locale/de-at.js', 420, 438 ]
+580 silly gunzTarPerm extractEntry src/locale/sv.js
+581 silly gunzTarPerm modified mode [ 'src/locale/sv.js', 420, 438 ]
+582 silly gunzTarPerm extractEntry src/locale/da.js
+583 silly gunzTarPerm modified mode [ 'src/locale/da.js', 420, 438 ]
+584 silly gunzTarPerm extractEntry src/locale/sw.js
+585 silly gunzTarPerm modified mode [ 'src/locale/sw.js', 420, 438 ]
+586 silly gunzTarPerm extractEntry src/locale/cy.js
+587 silly gunzTarPerm modified mode [ 'src/locale/cy.js', 420, 438 ]
+588 silly gunzTarPerm extractEntry src/locale/ta.js
+589 silly gunzTarPerm modified mode [ 'src/locale/ta.js', 420, 438 ]
+590 silly gunzTarPerm extractEntry src/locale/cv.js
+591 silly gunzTarPerm modified mode [ 'src/locale/cv.js', 420, 438 ]
+592 silly gunzTarPerm extractEntry src/locale/te.js
+593 silly gunzTarPerm modified mode [ 'src/locale/te.js', 420, 438 ]
+594 silly gunzTarPerm extractEntry src/locale/cs.js
+595 silly gunzTarPerm modified mode [ 'src/locale/cs.js', 420, 438 ]
+596 silly gunzTarPerm extractEntry src/locale/th.js
+597 silly gunzTarPerm modified mode [ 'src/locale/th.js', 420, 438 ]
+598 silly gunzTarPerm extractEntry src/locale/ca.js
+599 silly gunzTarPerm modified mode [ 'src/locale/ca.js', 420, 438 ]
+600 silly gunzTarPerm extractEntry src/locale/tl-ph.js
+601 silly gunzTarPerm modified mode [ 'src/locale/tl-ph.js', 420, 438 ]
+602 silly gunzTarPerm extractEntry src/locale/bs.js
+603 silly gunzTarPerm modified mode [ 'src/locale/bs.js', 420, 438 ]
+604 silly gunzTarPerm extractEntry src/locale/tlh.js
+605 silly gunzTarPerm modified mode [ 'src/locale/tlh.js', 420, 438 ]
+606 silly gunzTarPerm extractEntry src/locale/br.js
+607 silly gunzTarPerm modified mode [ 'src/locale/br.js', 420, 438 ]
+608 silly gunzTarPerm extractEntry src/locale/tr.js
+609 silly gunzTarPerm modified mode [ 'src/locale/tr.js', 420, 438 ]
+610 silly gunzTarPerm extractEntry src/locale/bo.js
+611 silly gunzTarPerm modified mode [ 'src/locale/bo.js', 420, 438 ]
+612 silly gunzTarPerm extractEntry src/locale/tzl.js
+613 silly gunzTarPerm modified mode [ 'src/locale/tzl.js', 420, 438 ]
+614 silly gunzTarPerm extractEntry src/locale/bn.js
+615 silly gunzTarPerm modified mode [ 'src/locale/bn.js', 420, 438 ]
+616 silly gunzTarPerm extractEntry src/locale/tzm-latn.js
+617 silly gunzTarPerm modified mode [ 'src/locale/tzm-latn.js', 420, 438 ]
+618 silly gunzTarPerm extractEntry src/locale/bg.js
+619 silly gunzTarPerm modified mode [ 'src/locale/bg.js', 420, 438 ]
+620 silly gunzTarPerm extractEntry src/locale/tzm.js
+621 silly gunzTarPerm modified mode [ 'src/locale/tzm.js', 420, 438 ]
+622 silly gunzTarPerm extractEntry src/locale/be.js
+623 silly gunzTarPerm modified mode [ 'src/locale/be.js', 420, 438 ]
+624 silly gunzTarPerm extractEntry src/locale/uk.js
+625 silly gunzTarPerm modified mode [ 'src/locale/uk.js', 420, 438 ]
+626 silly gunzTarPerm extractEntry src/locale/az.js
+627 silly gunzTarPerm modified mode [ 'src/locale/az.js', 420, 438 ]
+628 silly gunzTarPerm extractEntry src/locale/uz.js
+629 silly gunzTarPerm modified mode [ 'src/locale/uz.js', 420, 438 ]
+630 silly gunzTarPerm extractEntry src/locale/ar.js
+631 silly gunzTarPerm modified mode [ 'src/locale/ar.js', 420, 438 ]
+632 silly gunzTarPerm extractEntry src/locale/vi.js
+633 silly gunzTarPerm modified mode [ 'src/locale/vi.js', 420, 438 ]
+634 silly gunzTarPerm extractEntry src/locale/ar-tn.js
+635 silly gunzTarPerm modified mode [ 'src/locale/ar-tn.js', 420, 438 ]
+636 silly gunzTarPerm extractEntry src/locale/x-pseudo.js
+637 silly gunzTarPerm modified mode [ 'src/locale/x-pseudo.js', 420, 438 ]
+638 silly gunzTarPerm extractEntry src/locale/ar-sa.js
+639 silly gunzTarPerm modified mode [ 'src/locale/ar-sa.js', 420, 438 ]
+640 silly gunzTarPerm extractEntry src/locale/zh-cn.js
+641 silly gunzTarPerm modified mode [ 'src/locale/zh-cn.js', 420, 438 ]
+642 silly gunzTarPerm extractEntry src/locale/ar-ma.js
+643 silly gunzTarPerm modified mode [ 'src/locale/ar-ma.js', 420, 438 ]
+644 silly gunzTarPerm extractEntry src/locale/zh-tw.js
+645 silly gunzTarPerm modified mode [ 'src/locale/zh-tw.js', 420, 438 ]
+646 silly gunzTarPerm extractEntry src/locale/ka.js
+647 silly gunzTarPerm modified mode [ 'src/locale/ka.js', 420, 438 ]
+648 silly gunzTarPerm extractEntry locale/af.js
+649 silly gunzTarPerm modified mode [ 'locale/af.js', 420, 438 ]
+650 silly gunzTarPerm extractEntry locale/it.js
+651 silly gunzTarPerm modified mode [ 'locale/it.js', 420, 438 ]
+652 silly gunzTarPerm extractEntry locale/ja.js
+653 silly gunzTarPerm modified mode [ 'locale/ja.js', 420, 438 ]
+654 silly gunzTarPerm extractEntry locale/jv.js
+655 silly gunzTarPerm modified mode [ 'locale/jv.js', 420, 438 ]
+656 silly gunzTarPerm extractEntry locale/is.js
+657 silly gunzTarPerm modified mode [ 'locale/is.js', 420, 438 ]
+658 silly gunzTarPerm extractEntry locale/kk.js
+659 silly gunzTarPerm modified mode [ 'locale/kk.js', 420, 438 ]
+660 silly gunzTarPerm extractEntry locale/km.js
+661 silly gunzTarPerm modified mode [ 'locale/km.js', 420, 438 ]
+662 silly gunzTarPerm extractEntry locale/ko.js
+663 silly gunzTarPerm modified mode [ 'locale/ko.js', 420, 438 ]
+664 silly gunzTarPerm extractEntry locale/ky.js
+665 silly gunzTarPerm modified mode [ 'locale/ky.js', 420, 438 ]
+666 silly gunzTarPerm extractEntry locale/lb.js
+667 silly gunzTarPerm modified mode [ 'locale/lb.js', 420, 438 ]
+668 silly gunzTarPerm extractEntry locale/id.js
+669 silly gunzTarPerm modified mode [ 'locale/id.js', 420, 438 ]
+670 silly gunzTarPerm extractEntry locale/lo.js
+671 silly gunzTarPerm modified mode [ 'locale/lo.js', 420, 438 ]
+672 silly gunzTarPerm extractEntry locale/hy-am.js
+673 silly gunzTarPerm modified mode [ 'locale/hy-am.js', 420, 438 ]
+674 silly gunzTarPerm extractEntry locale/lt.js
+675 silly gunzTarPerm modified mode [ 'locale/lt.js', 420, 438 ]
+676 silly gunzTarPerm extractEntry locale/hu.js
+677 silly gunzTarPerm modified mode [ 'locale/hu.js', 420, 438 ]
+678 silly gunzTarPerm extractEntry locale/lv.js
+679 silly gunzTarPerm modified mode [ 'locale/lv.js', 420, 438 ]
+680 silly gunzTarPerm extractEntry locale/hr.js
+681 silly gunzTarPerm modified mode [ 'locale/hr.js', 420, 438 ]
+682 silly gunzTarPerm extractEntry locale/me.js
+683 silly gunzTarPerm modified mode [ 'locale/me.js', 420, 438 ]
+684 silly gunzTarPerm extractEntry locale/hi.js
+685 silly gunzTarPerm modified mode [ 'locale/hi.js', 420, 438 ]
+686 silly gunzTarPerm extractEntry locale/mk.js
+687 silly gunzTarPerm modified mode [ 'locale/mk.js', 420, 438 ]
+688 silly gunzTarPerm extractEntry locale/he.js
+689 silly gunzTarPerm modified mode [ 'locale/he.js', 420, 438 ]
+690 silly gunzTarPerm extractEntry locale/ml.js
+691 silly gunzTarPerm modified mode [ 'locale/ml.js', 420, 438 ]
+692 silly gunzTarPerm extractEntry locale/gl.js
+693 silly gunzTarPerm modified mode [ 'locale/gl.js', 420, 438 ]
+694 silly gunzTarPerm extractEntry locale/mr.js
+695 silly gunzTarPerm modified mode [ 'locale/mr.js', 420, 438 ]
+696 silly gunzTarPerm extractEntry locale/gd.js
+697 silly gunzTarPerm modified mode [ 'locale/gd.js', 420, 438 ]
+698 silly gunzTarPerm extractEntry locale/ms-my.js
+699 silly gunzTarPerm modified mode [ 'locale/ms-my.js', 420, 438 ]
+700 silly gunzTarPerm extractEntry locale/fy.js
+701 silly gunzTarPerm modified mode [ 'locale/fy.js', 420, 438 ]
+702 silly gunzTarPerm extractEntry locale/ms.js
+703 silly gunzTarPerm modified mode [ 'locale/ms.js', 420, 438 ]
+704 silly gunzTarPerm extractEntry locale/fr.js
+705 silly gunzTarPerm modified mode [ 'locale/fr.js', 420, 438 ]
+706 silly gunzTarPerm extractEntry locale/my.js
+707 silly gunzTarPerm modified mode [ 'locale/my.js', 420, 438 ]
+708 silly gunzTarPerm extractEntry locale/fr-ch.js
+709 silly gunzTarPerm modified mode [ 'locale/fr-ch.js', 420, 438 ]
+710 silly gunzTarPerm extractEntry locale/nb.js
+711 silly gunzTarPerm modified mode [ 'locale/nb.js', 420, 438 ]
+712 silly gunzTarPerm extractEntry locale/fr-ca.js
+713 silly gunzTarPerm modified mode [ 'locale/fr-ca.js', 420, 438 ]
+714 silly gunzTarPerm extractEntry locale/ne.js
+715 silly gunzTarPerm modified mode [ 'locale/ne.js', 420, 438 ]
+716 silly gunzTarPerm extractEntry locale/fo.js
+717 silly gunzTarPerm modified mode [ 'locale/fo.js', 420, 438 ]
+718 silly gunzTarPerm extractEntry locale/nl.js
+719 silly gunzTarPerm modified mode [ 'locale/nl.js', 420, 438 ]
+720 silly gunzTarPerm extractEntry locale/fi.js
+721 silly gunzTarPerm modified mode [ 'locale/fi.js', 420, 438 ]
+722 silly gunzTarPerm extractEntry locale/nn.js
+723 silly gunzTarPerm modified mode [ 'locale/nn.js', 420, 438 ]
+724 silly gunzTarPerm extractEntry locale/fa.js
+725 silly gunzTarPerm modified mode [ 'locale/fa.js', 420, 438 ]
+726 silly gunzTarPerm extractEntry locale/pa-in.js
+727 silly gunzTarPerm modified mode [ 'locale/pa-in.js', 420, 438 ]
+728 silly gunzTarPerm extractEntry locale/eu.js
+729 silly gunzTarPerm modified mode [ 'locale/eu.js', 420, 438 ]
+730 silly gunzTarPerm extractEntry locale/pl.js
+731 silly gunzTarPerm modified mode [ 'locale/pl.js', 420, 438 ]
+732 silly gunzTarPerm extractEntry locale/et.js
+733 silly gunzTarPerm modified mode [ 'locale/et.js', 420, 438 ]
+734 silly gunzTarPerm extractEntry locale/pt-br.js
+735 silly gunzTarPerm modified mode [ 'locale/pt-br.js', 420, 438 ]
+736 silly gunzTarPerm extractEntry locale/es.js
+737 silly gunzTarPerm modified mode [ 'locale/es.js', 420, 438 ]
+738 silly gunzTarPerm extractEntry locale/pt.js
+739 silly gunzTarPerm modified mode [ 'locale/pt.js', 420, 438 ]
+740 silly gunzTarPerm extractEntry locale/es-do.js
+741 silly gunzTarPerm modified mode [ 'locale/es-do.js', 420, 438 ]
+742 silly gunzTarPerm extractEntry locale/ro.js
+743 silly gunzTarPerm modified mode [ 'locale/ro.js', 420, 438 ]
+744 silly gunzTarPerm extractEntry locale/eo.js
+745 silly gunzTarPerm modified mode [ 'locale/eo.js', 420, 438 ]
+746 silly gunzTarPerm extractEntry locale/ru.js
+747 silly gunzTarPerm modified mode [ 'locale/ru.js', 420, 438 ]
+748 silly gunzTarPerm extractEntry locale/en-nz.js
+749 silly gunzTarPerm modified mode [ 'locale/en-nz.js', 420, 438 ]
+750 silly gunzTarPerm extractEntry locale/se.js
+751 silly gunzTarPerm modified mode [ 'locale/se.js', 420, 438 ]
+752 silly gunzTarPerm extractEntry locale/en-ie.js
+753 silly gunzTarPerm modified mode [ 'locale/en-ie.js', 420, 438 ]
+754 silly gunzTarPerm extractEntry locale/si.js
+755 silly gunzTarPerm modified mode [ 'locale/si.js', 420, 438 ]
+756 silly gunzTarPerm extractEntry locale/en-gb.js
+757 silly gunzTarPerm modified mode [ 'locale/en-gb.js', 420, 438 ]
+758 silly gunzTarPerm extractEntry locale/sk.js
+759 silly gunzTarPerm modified mode [ 'locale/sk.js', 420, 438 ]
+760 silly gunzTarPerm extractEntry locale/en-ca.js
+761 silly gunzTarPerm modified mode [ 'locale/en-ca.js', 420, 438 ]
+762 silly gunzTarPerm extractEntry locale/sl.js
+763 silly gunzTarPerm modified mode [ 'locale/sl.js', 420, 438 ]
+764 silly gunzTarPerm extractEntry locale/en-au.js
+765 silly gunzTarPerm modified mode [ 'locale/en-au.js', 420, 438 ]
+766 silly gunzTarPerm extractEntry locale/sq.js
+767 silly gunzTarPerm modified mode [ 'locale/sq.js', 420, 438 ]
+768 silly gunzTarPerm extractEntry locale/el.js
+769 silly gunzTarPerm modified mode [ 'locale/el.js', 420, 438 ]
+770 silly gunzTarPerm extractEntry locale/sr-cyrl.js
+771 silly gunzTarPerm modified mode [ 'locale/sr-cyrl.js', 420, 438 ]
+772 silly gunzTarPerm extractEntry locale/dv.js
+773 silly gunzTarPerm modified mode [ 'locale/dv.js', 420, 438 ]
+774 silly gunzTarPerm extractEntry locale/sr.js
+775 silly gunzTarPerm modified mode [ 'locale/sr.js', 420, 438 ]
+776 silly gunzTarPerm extractEntry locale/de.js
+777 silly gunzTarPerm modified mode [ 'locale/de.js', 420, 438 ]
+778 silly gunzTarPerm extractEntry locale/ss.js
+779 silly gunzTarPerm modified mode [ 'locale/ss.js', 420, 438 ]
+780 silly gunzTarPerm extractEntry locale/de-at.js
+781 silly gunzTarPerm modified mode [ 'locale/de-at.js', 420, 438 ]
+782 silly gunzTarPerm extractEntry locale/sv.js
+783 silly gunzTarPerm modified mode [ 'locale/sv.js', 420, 438 ]
+784 silly gunzTarPerm extractEntry locale/da.js
+785 silly gunzTarPerm modified mode [ 'locale/da.js', 420, 438 ]
+786 silly gunzTarPerm extractEntry locale/sw.js
+787 silly gunzTarPerm modified mode [ 'locale/sw.js', 420, 438 ]
+788 silly gunzTarPerm extractEntry locale/cy.js
+789 silly gunzTarPerm modified mode [ 'locale/cy.js', 420, 438 ]
+790 silly gunzTarPerm extractEntry locale/ta.js
+791 silly gunzTarPerm modified mode [ 'locale/ta.js', 420, 438 ]
+792 silly gunzTarPerm extractEntry locale/cv.js
+793 silly gunzTarPerm modified mode [ 'locale/cv.js', 420, 438 ]
+794 silly gunzTarPerm extractEntry locale/te.js
+795 silly gunzTarPerm modified mode [ 'locale/te.js', 420, 438 ]
+796 silly gunzTarPerm extractEntry locale/cs.js
+797 silly gunzTarPerm modified mode [ 'locale/cs.js', 420, 438 ]
+798 silly gunzTarPerm extractEntry locale/th.js
+799 silly gunzTarPerm modified mode [ 'locale/th.js', 420, 438 ]
+800 silly gunzTarPerm extractEntry locale/ca.js
+801 silly gunzTarPerm modified mode [ 'locale/ca.js', 420, 438 ]
+802 silly gunzTarPerm extractEntry locale/tl-ph.js
+803 silly gunzTarPerm modified mode [ 'locale/tl-ph.js', 420, 438 ]
+804 silly gunzTarPerm extractEntry locale/bs.js
+805 silly gunzTarPerm modified mode [ 'locale/bs.js', 420, 438 ]
+806 silly gunzTarPerm extractEntry locale/tlh.js
+807 silly gunzTarPerm modified mode [ 'locale/tlh.js', 420, 438 ]
+808 silly gunzTarPerm extractEntry locale/br.js
+809 silly gunzTarPerm modified mode [ 'locale/br.js', 420, 438 ]
+810 silly gunzTarPerm extractEntry locale/tr.js
+811 silly gunzTarPerm modified mode [ 'locale/tr.js', 420, 438 ]
+812 silly gunzTarPerm extractEntry locale/bo.js
+813 silly gunzTarPerm modified mode [ 'locale/bo.js', 420, 438 ]
+814 silly gunzTarPerm extractEntry locale/tzl.js
+815 silly gunzTarPerm modified mode [ 'locale/tzl.js', 420, 438 ]
+816 silly gunzTarPerm extractEntry locale/bn.js
+817 silly gunzTarPerm modified mode [ 'locale/bn.js', 420, 438 ]
+818 silly gunzTarPerm extractEntry locale/tzm-latn.js
+819 silly gunzTarPerm modified mode [ 'locale/tzm-latn.js', 420, 438 ]
+820 silly gunzTarPerm extractEntry locale/bg.js
+821 silly gunzTarPerm modified mode [ 'locale/bg.js', 420, 438 ]
+822 silly gunzTarPerm extractEntry locale/tzm.js
+823 silly gunzTarPerm modified mode [ 'locale/tzm.js', 420, 438 ]
+824 silly gunzTarPerm extractEntry locale/be.js
+825 silly gunzTarPerm modified mode [ 'locale/be.js', 420, 438 ]
+826 silly gunzTarPerm extractEntry locale/uk.js
+827 silly gunzTarPerm modified mode [ 'locale/uk.js', 420, 438 ]
+828 silly gunzTarPerm extractEntry locale/az.js
+829 silly gunzTarPerm modified mode [ 'locale/az.js', 420, 438 ]
+830 silly gunzTarPerm extractEntry locale/uz.js
+831 silly gunzTarPerm modified mode [ 'locale/uz.js', 420, 438 ]
+832 silly gunzTarPerm extractEntry locale/ar.js
+833 silly gunzTarPerm modified mode [ 'locale/ar.js', 420, 438 ]
+834 silly gunzTarPerm extractEntry locale/vi.js
+835 silly gunzTarPerm modified mode [ 'locale/vi.js', 420, 438 ]
+836 silly gunzTarPerm extractEntry locale/ar-tn.js
+837 silly gunzTarPerm modified mode [ 'locale/ar-tn.js', 420, 438 ]
+838 silly gunzTarPerm extractEntry locale/x-pseudo.js
+839 silly gunzTarPerm modified mode [ 'locale/x-pseudo.js', 420, 438 ]
+840 silly gunzTarPerm extractEntry locale/ar-sa.js
+841 silly gunzTarPerm modified mode [ 'locale/ar-sa.js', 420, 438 ]
+842 silly gunzTarPerm extractEntry locale/zh-cn.js
+843 silly gunzTarPerm modified mode [ 'locale/zh-cn.js', 420, 438 ]
+844 silly gunzTarPerm extractEntry locale/ar-ma.js
+845 silly gunzTarPerm modified mode [ 'locale/ar-ma.js', 420, 438 ]
+846 silly gunzTarPerm extractEntry locale/zh-tw.js
+847 silly gunzTarPerm modified mode [ 'locale/zh-tw.js', 420, 438 ]
+848 silly gunzTarPerm extractEntry locale/ka.js
+849 silly gunzTarPerm modified mode [ 'locale/ka.js', 420, 438 ]
+850 silly gunzTarPerm extractEntry CHANGELOG.md
+851 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+852 silly gunzTarPerm extractEntry min/locales.js
+853 silly gunzTarPerm modified mode [ 'min/locales.js', 420, 438 ]
+854 silly gunzTarPerm extractEntry min/locales.min.js
+855 silly gunzTarPerm modified mode [ 'min/locales.min.js', 420, 438 ]
+856 silly gunzTarPerm extractEntry min/moment-with-locales.js
+857 silly gunzTarPerm modified mode [ 'min/moment-with-locales.js', 420, 438 ]
+858 silly gunzTarPerm extractEntry min/moment-with-locales.min.js
+859 silly gunzTarPerm modified mode [ 'min/moment-with-locales.min.js', 420, 438 ]
+860 silly gunzTarPerm extractEntry min/moment.min.js
+861 silly gunzTarPerm modified mode [ 'min/moment.min.js', 420, 438 ]
+862 silly gentlyRm C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa\node_modules is being purged
+863 verbose gentlyRm don't care about contents; nuking C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa\node_modules
+864 silly doParallel preinstall 2
+865 silly preinstall moment@2.14.1 C:\xampp\htdocs\symfony_project\node_modules\.staging\moment-1c8056aa
+866 info lifecycle moment@2.14.1~preinstall: moment@2.14.1
+867 silly preinstall vue-filter@0.1.6 C:\xampp\htdocs\symfony_project\node_modules\.staging\vue-filter-dd5bb0d9
+868 info lifecycle vue-filter@0.1.6~preinstall: vue-filter@0.1.6
+869 silly lifecycle moment@2.14.1~preinstall: no script for preinstall, continuing
+870 silly lifecycle vue-filter@0.1.6~preinstall: no script for preinstall, continuing
+871 silly doReverseSerial remove 0
+872 silly doSerial move 0
+873 silly doSerial finalize 2
+874 silly finalize C:\xampp\htdocs\symfony_project\node_modules\moment
+875 silly finalize C:\xampp\htdocs\symfony_project\node_modules\vue-filter
+876 verbose unlock done using C:\Users\largo\AppData\Roaming\npm-cache\_locks\staging-206922174769d498.lock for C:\xampp\htdocs\symfony_project\node_modules\.staging
+877 silly rollbackFailedOptional Starting
+878 silly rollbackFailedOptional Finishing
+879 silly runTopLevelLifecycles Starting
+880 silly runTopLevelLifecycles Finishing
+881 silly install printInstalled
+882 warn enoent ENOENT: no such file or directory, open 'C:\xampp\htdocs\symfony_project\package.json'
+883 warn symfony_project No description
+884 warn symfony_project No repository field.
+885 warn symfony_project No README data
+886 warn symfony_project No license field.
+887 verbose stack Error: EPERM: operation not permitted, rename 'C:\xampp\htdocs\symfony_project\node_modules\vue-filter' -> 'C:\xampp\htdocs\symfony_project\node_modules\.vue-filter.DELETE'
+887 verbose stack     at moveAway (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:38:5)
+887 verbose stack     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:27:7)
+887 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+887 verbose stack
+887 verbose stack Error: EPERM: operation not permitted, rename 'C:\xampp\htdocs\symfony_project\node_modules\vue-filter' -> 'C:\xampp\htdocs\symfony_project\node_modules\.vue-filter.DELETE'
+887 verbose stack     at Error (native)
+888 verbose cwd C:\xampp\htdocs\symfony_project
+889 error Windows_NT 10.0.10586
+890 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "moment" "--save"
+891 error node v5.8.0
+892 error npm  v3.7.3
+893 error path C:\xampp\htdocs\symfony_project\node_modules\vue-filter
+894 error code EPERM
+895 error errno -4048
+896 error syscall rename
+897 error Error: EPERM: operation not permitted, rename 'C:\xampp\htdocs\symfony_project\node_modules\vue-filter' -> 'C:\xampp\htdocs\symfony_project\node_modules\.vue-filter.DELETE'
+897 error     at moveAway (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:38:5)
+897 error     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:27:7)
+897 error     at FSReqWrap.oncomplete (fs.js:82:15)
+897 error
+897 error Error: EPERM: operation not permitted, rename 'C:\xampp\htdocs\symfony_project\node_modules\vue-filter' -> 'C:\xampp\htdocs\symfony_project\node_modules\.vue-filter.DELETE'
+897 error     at Error (native)
+897 error  [Error: EPERM: operation not permitted, rename 'C:\xampp\htdocs\symfony_project\node_modules\vue-filter' -> 'C:\xampp\htdocs\symfony_project\node_modules\.vue-filter.DELETE']
+898 error Please try running this command again as root/Administrator.
+899 verbose exit [ -4048, true ]

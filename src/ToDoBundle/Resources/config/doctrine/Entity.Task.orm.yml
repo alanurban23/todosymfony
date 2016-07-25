@@ -1,0 +1,21 @@
+ToDoBundle\Entity\Entity\Task:
+    type: entity
+    table: null
+    repositoryClass: ToDoBundle\Repository\Entity\TaskRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        user:
+            type: string
+            length: 255
+        category:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
